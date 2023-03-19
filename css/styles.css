@@ -1,0 +1,158 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --dark-text-bcg-color: #2e2f42;
+  --main-text-color: #434455;
+  --white-color: #ffffff;
+  --pressed-state-color: #404bbf;
+  --light-mode-color: #f4f4fd;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  background-color: var(--white-color);
+  color: var(--main-text-color);
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+}
+.header-nav {
+}
+.logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--dark-text-bcg-color);
+}
+.first-word.logo {
+  color: var(--primary-brand-color);
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--dark-text-bcg-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--pressed-state-color);
+}
+
+.address {
+  font-style: normal;
+  line-height: 1.5;
+}
+.address-list {
+}
+.address-item {
+}
+.address-link {
+  color: var(--main-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--pressed-state-color);
+}
+
+/* Hero */
+.hero {
+  background: var(--dark-text-bcg-color);
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--white-color);
+  text-align: center;
+}
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--primary-brand-color);
+  cursor: pointer;
+}
+.button.primary {
+  background-color: var(--pressed-state-color);
+}
+.button.secondary {
+  color: var(--primary-brand-color);
+  background-color: var(--light-mode-color);
+}
+/* Section */
+.section {
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--dark-text-bcg-color);
+  text-align: center;
+}
+.feature-title,
+.team-title,
+.project-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-text-bcg-color);
+}
+.feature-description,
+.team-description,
+.project-description {
+  line-height: 1.5;
+}
+
+/* Features */
+.feature-list {
+}
+.feature-items {
+}
+
+/*Work examples */
+.work-list {
+}
+.work-items {
+}
+.work-photo {
+}
+/* Our Team */
+.section.team {
+  background-color: var(--light-mode-color);
+}
+.team-list {
+}
+.team-items {
+}
+.team-card {
+}
+
+/* Portfolio */
+
+/* Footer */
+.footer {
+  background-color: var(--dark-text-bcg-color);
+}
+
+.second-word.logo {
+  color: var(--light-mode-color);
+}
+.footer-text {
+  line-height: 1.5;
+  color: var(--light-mode-color);
+}
