@@ -147,7 +147,7 @@ body {
 .section.team {
   background-color: var(--light-mode-color);
 }
-.team-list.list {
+.team-list {
   background-color: var(--white-color);
 }
 .team-items {
