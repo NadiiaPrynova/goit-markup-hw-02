@@ -147,7 +147,7 @@ body {
 .section.team {
   background-color: var(--light-mode-color);
 }
-.team-list {
+.team-list.list {
   background-color: var(--white-color);
 }
 .team-items {
@@ -156,6 +156,9 @@ body {
 }
 
 /* Portfolio */
+.project-description {
+  color: var(--main-text-color);
+}
 
 /* Footer */
 .footer {
