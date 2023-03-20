@@ -148,9 +148,9 @@ body {
   background-color: var(--light-mode-color);
 }
 .team-list {
-  background-color: var(--white-color);
 }
 .team-items {
+  background: var(--white-color);
 }
 .team-card {
 }
