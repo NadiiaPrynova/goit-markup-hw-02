@@ -95,20 +95,12 @@ body {
 .button:focus {
   background-color: var(--pressed-state-color);
 }
-.button.primary {
-  background-color: var(--pressed-state-color);
-}
-.button.secondary {
+.filter.button {
   color: var(--primary-brand-color);
   background-color: var(--light-mode-color);
 }
-.button.primary:hover,
-.button.primary:focus {
-  color: var(--primary-brand-color);
-  background-color: var(--light-mode-color);
-}
-.button.secondary:hover,
-.button.secondary:focus {
+.filter.button:hover,
+.filter.button:focus {
   color: var(--white-color);
   background-color: var(--pressed-state-color);
 }
@@ -156,6 +148,7 @@ body {
   background-color: var(--light-mode-color);
 }
 .team-list {
+  background-color: var(--white-color);
 }
 .team-items {
 }
