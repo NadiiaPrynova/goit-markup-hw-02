@@ -28,15 +28,16 @@ body {
 .header-nav {
 }
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--dark-text-bcg-color);
-}
-.first-word.logo {
+  text-transform: uppercase;
   color: var(--primary-brand-color);
+}
+.second-word.logo {
+  color: var(--dark-text-bcg-color);
 }
 .header-list {
 }
@@ -76,17 +77,23 @@ body {
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   color: var(--white-color);
   text-align: center;
 }
 .button {
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--primary-brand-color);
   cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--pressed-state-color);
 }
 .button.primary {
   background-color: var(--pressed-state-color);
@@ -95,14 +102,26 @@ body {
   color: var(--primary-brand-color);
   background-color: var(--light-mode-color);
 }
+.button.primary:hover,
+.button.primary:focus {
+  color: var(--primary-brand-color);
+  background-color: var(--light-mode-color);
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--white-color);
+  background-color: var(--pressed-state-color);
+}
 /* Section */
 .section {
 }
 .section-title {
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   color: var(--dark-text-bcg-color);
   text-align: center;
+  text-transform: capitalize;
 }
 .feature-title,
 .team-title,
@@ -110,6 +129,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--dark-text-bcg-color);
 }
 .feature-description,
@@ -149,10 +169,10 @@ body {
   background-color: var(--dark-text-bcg-color);
 }
 
-.second-word.logo {
-  color: var(--light-mode-color);
-}
 .footer-text {
   line-height: 1.5;
+  color: var(--light-mode-color);
+}
+.footer .second-word.logo {
   color: var(--light-mode-color);
 }
